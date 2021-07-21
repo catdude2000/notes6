@@ -16,7 +16,7 @@ examples/js/pure_js_greating.html
 
 < html>
 < head>
-  < title>Hello World</title>
+  < title>Hello World</ title>
 < /head>
 < body> 
 First name: < input id="first_name">
