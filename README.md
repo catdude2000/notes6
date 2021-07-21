@@ -15,16 +15,16 @@ Inpu output in plain javascript
 examples/js/pure_js_greating.html
 
 < html>
-<head>
-  <title>Hello World</title>
-</head>
-<body> 
-First name: <input id="first_name">
-Last name: <input id="last_name">
-<button id="say">Say hi!</button>
- <hr>
-<div id="result"></div>
- <script>
+< head>
+  < title>Hello World</title>
+< /head>
+< body> 
+First name: < input id="first_name">
+Last name: < input id="last_name">
+< button id="say">Say hi!</ button>
+ < hr>
+< div id="result"></ div>
+ < script>
 function say_hi() {
     var fname = document.getElementById('first_name').value;
     var lname = document.getElementById('last_name').value;
@@ -34,9 +34,9 @@ function say_hi() {
     document.getElementById('result').innerHTML = html;
 }
  document.getElementById('say').addEventListener('click', say_hi);
-</script>
- </body>
-</html>
+</ script>
+ </ body>
+</ html>
  
   In the JavaScript code we have a function called say_hi. It used the getElementById we have already seen to locate the DOM element 
 representing the input element with the id first_name
@@ -85,11 +85,11 @@ assign value using =
 carname = "Volvo"
 or do it together   var carname = "volvo"
 Then we "output" the value inside an HTML paragraph with id="demo"
-<p id="demo"></p>
-<script>
+< p id="demo"></ p>
+< script>
 var carName = "Volvo";
 document.getElementById("demo").innerHTML = carName;
-</script>
+</ script>
 you can declare many variables in one statement seperated by commas
 can span multiple lines
 
