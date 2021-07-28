@@ -109,3 +109,6 @@ for the main function in a JavaScript library.
 In jQuery $("p"); means "select all p elements".
   Using the underscore is not very common in JavaScript, but a convention among professional programmers 
 is to use it as an alias for "private (hidden)" variables
+
+
+[Go to TOC](https://catdude2000.github.io/reading-notes/)
